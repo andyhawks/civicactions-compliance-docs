@@ -1,6 +1,13 @@
 # Audit and accountability management policy
 
-See [CIO 2100.1K – GSA IT Security Policy](https://gsa.gov/portal/getMediaData?mediaId=164806) Chapter 5, _Policy on Technical Controls_, which covers:
+CivicActions develops, documents, and disseminates to all CivicActions staff the Audit and
+Accountability Policy which addresses purpose, scope, roles, responsibilities, management
+commitment, coordination among organizational entities, compliance, and procedures to
+facilitate the implementation of the audit and accountability policy and associated audit
+controls.  The CivicActions Audit and Accountability Policy is maintained in the
+CivicActions compliance-docs Github repository is accessible to all CivicActions staff.
+
+The CivicActions Audit and Accountability Policy covers:
 
 * Access Control (AC)
 * Audit and Accountability (AU)
@@ -13,54 +20,47 @@ Ensure all actions taken on the information system are transparent, valid, and p
 
 ## Scope
 
-See the **_Applicability_** section of the GSA IT Security Policy.
+See the [CivicActions Common Control Policy](CivicActions-Common-Control-Policy.md).
 
 ## Policy overlay
 
-For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/18F/compliance-docs/blob/master/TTS-Common-Control-Policy.md).
+For information on roles and responsibilities, management commitment, coordination among
+organizational entities, compliance, reviews, and updates please see the
+[CivicActions Common Control Policy](CivicActions-Common-Control-Policy.md).
+
+In addition, the CivicActions Information Security will coordinate with CivicActions
+client services as needed.
 
 ## Procedures
 
-Cloud Operations has implemented CloudTrail and CloudWatch for its account and system monitoring of AWS virtual infrastructure. These tools provide visibility into user activity by recording API calls made on an AWS account and its cloud infrastructure. CloudTrail captures and records important information about each API call for the list of auditable events.
+The procedures for auditing CivicActions and client services systems are specific to the
+technology stack and as such are described - when needed - in client-specific
+documentation.
 
-cloud.gov provides an audit trail through the BOSH tasks command. This command shows all actions that an operator has taken with the platform. Additionally, operators can redirect Cloud Foundry component logs to a Logstash syslog server using the syslog_daemon_config property in the metron_agent job of cf-release. For end users, cloud.gov records an audit trail of all relevant API invocations of an app. The CLI command cf events returns this information.
+Audit logs will be made available to client organizations and for mutual support in
+response to security breaches, system and user access and incident reporting.
 
-Loggregator, the Cloud Foundry component responsible for logging, provides a stream of log output from hosted applications and from cloud.gov system components that interact with applications during updates and execution.
-
-All applications will partially inherit some of the ELK stack auditing functions and capabilities that reside on the cloud.gov PaaS.  Application System Owners must ensure their application’s activities are monitored and captured within audit logs.  
-
-Audit logs will be made available to client organizations and for mutual support in response to security breaches, system and user access, incident reporting and continuous monitoring.  Cloud Operations will generate and distribute audit reports, provide dashboard access for audited events, and send audit log data to SIEM and log analysis systems as needed.
-The cloud.gov Program Manager has established processes for regularly reviewing audit log information, and reporting security issues if discovered. Reviews will occur at a minimum of weekly and are integrated with processes for incident response, in order to ensure standardization and cross-functional collaboration. All alerts are investigated.
-
-cloud.gov uses CloudTrail, CloudWatch, and Riemann to integrate audit monitoring, analysis and reporting into an overall process for investigation and response to suspicious activities. In addition, the cloud.gov team employs PagerDuty as an automated mechanism to immediately alert security personnel of inappropriate or unusual activities that have security implications.
-As a result, all information within the system is available for audit and available for after the fact investigations.
-
-cloud.gov provides an audit trail that shows all actions that an operator has taken with the platform. For users, cloud.gov records an audit trail of all relevant API invocations of an application.
-
-Application System owners are responsible for making sure audit events are captured based on AU-2(d) parameter requirements for their web applications.
+Client services and application system owners are responsible for making sure audit events
+are captured based on AU-2(d) parameter requirements for their web applications.
 
 See AU-2.
 
-Cloud Operations updates the defined auditable events on a quarterly basis or when changes in the threat environment occur or are identified by risk assessment. This quarterly Security Policy and Account Review meeting is on the cloud.gov team’s GSA Google Apps calendar as a recurring event.  The meeting is conducted with a quorum of the Cloud Operations team present and reviews incidents, alerts, logs, metrics, postmortems and events for the prior period.  Once reviewed, alerting policy and procedures are updated to reflect identified issues.  All updates and changes in the threat environment will be included in updates provided to the FedRAMP Joint Authorization Board (JAB). 
+CivicActions Information Security updates the defined auditable events when changes in the
+threat environment occur or are identified by risk assessment.
 
 See AU-2(3).
 
 CloudTrail, CloudWatch, Snort, Tripwire, Clam AV, and Riemann collect, monitor, and maintain audit logs for both AWS and cloud.gov.
 
-The events monitored include but are not limited to successful and unsuccessful account logon events, account management events, object access, policy change, privilege functions, process tracking, and system events for both AWS and cloud.gov. These events are tracked for all administrator activity, authentication checks, authorization checks, data deletions, data access, data changes, and permission changes. 
+The events monitored generally include but are not limited to successful and unsuccessful account logon events, account management events, policy change, privilege functions, and system events. These events are tracked for all administrator activity, authentication checks, authorization checks, and permission changes. 
 
-cloud.gov information system generates audit records for **everything**. All events are timestamped, and are comprehensive enough to answer the who, what, and where of any event. Due to the complete virtualization of the environment, and the comprehensiveness of our tooling, all information representing the state of the system, and any action taken on it is captured.
+See AU-3.
 
-See AU-3, AU-3(1).
-
-Cloud Operations defines the amount of storage dedicated to audit logs records on their EC2 instances and S3 buckets. cloud.gov uses elastic file storage that allows the information system to grow storage capacity as required. The use of elastic file storage reduces the likelihood of such capacity being exceeded within the information system. Cloud Operations team members are responsible for maintaining the configuration that enforces the audit settings.  
-
-The log management framework provides the capability to retain logs for 180 days online, with sufficient capacity as to mitigate the risk of exceeding storage space. In the event the threshold is exceeded, administrators can add additional storage capacity without impacting the system. 
+The log management framework provides the capability to retain logs for 180 days online, with sufficient capacity as to mitigate the risk of exceeding storage space. In the event the threshold is exceeded, administrators can add additional storage capacity without impacting the system.
 
 See AU-4.
 
-cloud.gov has the ability to elastically grow the audit storage capacity, which reduces the likelihood of such capacity being exceeded within the information system. Cloud Operations has implemented alerting to notify of insufficient audit storage capacity or if no new logs have been written to the ELK stack or CloudWatch Logs within a five-minute timeframe.  
-In the event that the audit storage capacity has been reached, cloud.gov will stop the Loggregator from streaming logs to any third-party tools and alert Cloud Operations of any processing failures.
+CivicActions has the ability to implement alerting to notify of insufficient audit storage capacity or if no new logs have been written a logging facility within a five-minute timeframe.
 
 See AU-5.
 

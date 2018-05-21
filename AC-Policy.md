@@ -10,6 +10,13 @@ Github repository is accessible to all CivicActions staff.
 CivicActions Information Security will review and update the CivicActions Access Control
 Policy at least every 3 years and any documented access procedures at least annually.
 
+The CivicActions Access Control Policy covers:
+
+* Access Control (AC)
+* Audit and Accountability (AU)
+* Identification and Authentication (IA)
+* System and Communications Protection (SC)
+
 ## Purpose
 
 Limit information system access to authorized users or processes acting on behalf of
@@ -17,7 +24,7 @@ authorized users. Enforce "least privilege" methodologies for all system actions
 
 ## Scope
 
-Please see the [CivicActions Common Control Policy](CivicActions-Common-Control-Policy.md).
+See the [CivicActions Common Control Policy](CivicActions-Common-Control-Policy.md).
 
 ## Policy overlay
 
@@ -26,7 +33,7 @@ organizational entities, compliance, reviews, and updates please see the
 [CivicActions Common Control Policy](CivicActions-Common-Control-Policy.md).
 
 In addition, the CivicActions Information Security will coordinate with CivicActions
-client services team members as needed.
+client services as needed.
 
 ## Procedures
 
