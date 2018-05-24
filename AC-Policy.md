@@ -44,3 +44,9 @@ termination of their relationship to the company.
 
 Access to client systems and services are defined specifically by the Access Control
 Policy for that client.
+
+See AC-2, AC-3, AC-7, AC-8, AC-14, AC-17
+
+CivicActions systems always adhere to the principle of role segmentation and least privilege wherever possible.
+
+See AC-5, AC-6

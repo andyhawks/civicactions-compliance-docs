@@ -72,21 +72,17 @@ CivicActions pulls from multiple NTP sources including http://tf.nist.gov/tf-cgi
 
 See AU-8.
 
-To maintain the integrity of log data, Cloud Operations carefully manages access around the generation and storage of audit log files. The ability to view or modify log data is restricted to Cloud Operations authorized users. Audit logs from CloudTrail are stored and protected in specified S3 buckets for cloud.gov, which are limited to read-only access and multifactor authentication by Cloud Operations staff.  This ensures the logs cannot be modified without proper authorization. 
-
-Audit logs from the cloud.gov platform are only accessible to Cloud Operations personnel and can only be viewed via the ELK stack. Any backend access to the EC2 hosts supporting the ELK stack in violation of policy triggers an alert to the entire Cloud Operations team.
-
-Further, the ElasticSearch component of ELK has been proxied such that our implementation filters and prevents modifications to existing logs via the HTTP PUT method, and only accepts the creation of new log entries via the HTTP POST method.
+To maintain the integrity of log data, CivicActions manages access around the generation and storage of audit log files. The ability to view or modify log data is restricted to CivicActions Operations authorized users.
 
 See AU-9.
 
-Audit logs are kept according to NARA and GSA retention standards to provide support for after-the-fact investigations of security incidents and to meet regulatory and organizational information retention requirements. Our logging systems referenced above retain logs for 180 days online, and for an additional year in an offline system.
+Audit logs are retained to provide support for after-the-fact investigations of security incidents and to meet regulatory and organizational information retention requirements. Our logging systems referenced above retain logs for 180 days online, and for an additional year in an offline system.
 
 See AU-11.
 
-cloud.gov provides comprehensive audit record generation capability for all components: CloudWatch Logs for AWS, metrics.fr.cloud.gov for cloud.gov metrics, and logs.fr.cloud.gov for applications on cloud.gov. 
+CivicActions provides audit record generation capability.
 
-Cloud Operations are responsible for maintaining the configuration that enforces the audit settings. 
-Cloud Operations team members select which auditable events are to be audited by specific components of cloud.gov where audit capability is deployed.
+CivicActions Operations is responsible for maintaining the configuration that enforces the audit settings. 
+CivicActions Operations team members select which auditable events are to be audited per system and client requirements.
 
 See AU-12.
