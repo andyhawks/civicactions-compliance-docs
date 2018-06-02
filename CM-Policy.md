@@ -1,6 +1,6 @@
-# Configuration management
+# Configuration Management
 
-See [CIO 2100.1K – GSA IT Security Policy](https://gsa.gov/portal/getMediaData?mediaId=164806) Chapter 4, _Policy on Operational Controls_, which covers:
+The CivicActions Configuration Management Policy covers:
 
 * Awareness and Training (AT)
 * Configuration Management (CM)
@@ -14,32 +14,34 @@ See [CIO 2100.1K – GSA IT Security Policy](https://gsa.gov/portal/getMediaData
 
 ## Purpose
 
-Always deploy information systems into a known state before instantiation, and to maintain information systems in an immutable state as much as feasible. To the greatest degree possible, the configuration of systems should not be altered after they are deployed — they should be rebuilt and replaced from a known and secure baseline state.
+CivicActions works to maintain information systems in an immutable state as much as
+feasible. To the greatest degree possible, the configuration of systems should be
+maintained in code so that at any time they can be rebuilt and replaced from a known and
+secure baseline state.
 
 ## Scope
 
-See the **_Applicability_** section of the GSA IT Security Policy.
+See the [CivicActions Common Control Policy](CivicActions-Common-Control-Policy.md).
 
 ## Policy overlay
 
-For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/18F/compliance-docs/blob/master/TTS-Common-Control-Policy.md).
+For information on roles and responsibilities, management commitment, coordination among
+organizational entities, compliance, reviews, and updates please see the
+[CivicActions Common Control Policy](CivicActions-Common-Control-Policy.md).
 
 ## Procedures
 
-cloud.gov's specific configuration management procedures are packaged with the actual code of the cloud.gov system. Below is an overview of our procedures along with citations to controls and relevant GitHub repositories.
+The CivicActions team uses the agile scrum methodology to govern configuration changes
+with configuration captured in code and issue tickets. In some cases, a detailed
+Configuration Plan document will be created to detail specific needs for a client.
 
-### 
+See CM-6, CM-9. 
 
-The cloud.gov team maintains a [Configuration Management Plan](https://github.com/18F/cg-site/blob/master/content/docs/ops/configuration-management.md) that governs configuration changes. The plan outlines the procedure for to make any and all changes impacting the configuration of the system.
+A current baseline configuration is always available such that the site can be regenerated
+or rolled back should unauthorized or failing changes be applied.
 
-See CM-9. 
+See CM-2.
 
-Cloud Operations first provisions the initial infrastructure tool, Concourse (a continuous integration pipelining tool), into the desired "infrastructure as a service" account, using this [procedure](https://github.com/18F/cg-provision). Concourse then ensures that all configurations of further automated deployments are controlled, whether they are the result of running Terraform or BOSH. 
+CivicActions Technology Operations works with relevant stakeholders, decision-makers, and CivicActions Information Security to determine any necessary changes, and their impacts, to the configuration of the system. All changes to the configuration of the system are tracked in GitHub. Only the System Owner and CivicActions Technology Operations are allowed to make configuration changes, and all changes are made to reasonably ensure the configurations require the least amount of functionality necessary.
 
-Cloud Operations encodes cloud.gov's infrastructure into a set of [Terraform](https://www.terraform.io) configuration files. Terraform files are checked into [18F's cloud.gov GitHub repositories](https://github.com/18F?utf8=%E2%9C%93&query=cg), and local git repositories, in order to ensure distributed version control and availability of the code. 
-
-See CM-2, CM-2(2), CM-2(3), CM-6(1).
-
-Cloud Operations works with relevant stakeholders, decision-makers, and GSA Information Security to determine any necessary changes, and their impacts, to the configuration of the system. All changes to the configuration of the system are tracked both in GitHub and AWS CloudTrail. Only the System Owner and Cloud Operations are allowed to make configuration changes, and all changes are made to reasonably ensure the configurations require the least amount of functionality necessary.
-
-See CM-3, CM-4, CM-5, CM-5(1), CM-5(5), CM-7, CM-8, CM-8(1)
+See CM-3, CM-4, CM-5, CM-7, CM-8.

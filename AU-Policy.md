@@ -1,4 +1,4 @@
-# Audit and accountability management policy
+# Audit and Accountability Policy
 
 CivicActions develops, documents, and disseminates to all CivicActions staff the Audit and
 Accountability Policy which addresses purpose, scope, roles, responsibilities, management

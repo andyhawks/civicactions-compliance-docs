@@ -1,4 +1,4 @@
-# Security awareness and training policy
+# Security Awareness and Training Policy
 
 See the [CivicActions Security Training](https://civicactions-handbook.readthedocs.io/en/latest/01-welcome-to-civicactions/training/security-training/) which covers:
 

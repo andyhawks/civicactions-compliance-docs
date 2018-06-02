@@ -1,4 +1,4 @@
-# CivicActions access control policy
+# Access Control Policy
 
 CivicActions develops, documents, and disseminates to all CivicActions staff the Access
 Control Policy which addresses purpose, scope, roles, responsibilities, management
@@ -42,11 +42,15 @@ CivicActions Information Security. Reviews of user access rights are performed o
 regular basis (at least twice annually). Employee access privileges are removed upon
 termination of their relationship to the company.
 
-Access to client systems and services are defined specifically by the Access Control
-Policy for that client.
+HTTPS and Secure Shell (SSH) are used for remote access, and all remote access is documented,
+monitored and controlled.
+
+Access to client systems and services may be extended to include the provisioning of privileged
+users by the client under the conditions of their Access Control Policy.
 
 See AC-2, AC-3, AC-7, AC-8, AC-14, AC-17
 
-CivicActions systems always adhere to the principle of role segmentation and least privilege wherever possible.
+CivicActions systems always adhere to the principle of role segmentation and least privilege
+wherever possible.
 
 See AC-5, AC-6
