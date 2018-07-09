@@ -1,6 +1,7 @@
 # Physical and Environmental Protection
 
-See [CIO 2100.1K – GSA IT Security Policy](https://gsa.gov/portal/getMediaData?mediaId=164806) Chapter 4, _Policy on Operational Controls_, which covers:
+Where possible, physical equipment is managed by virtual services employed by CivicActions
+to host client products and services. Relevent controls may include one or more of:
 
 * Awareness and Training (AT)
 * Configuration Management (CM)
@@ -14,15 +15,19 @@ See [CIO 2100.1K – GSA IT Security Policy](https://gsa.gov/portal/getMediaData
 
 ## Purpose
 
-Not applicable. cloud.gov is completely virtualized via AWS GovCloud. cloud.gov leverages the Provisional Authorization for AWS GovCloud for all physical and environmental protection.
+Not applicable. CivicActions leverages external virtual services for all physical and
+environmental protection.
 
 ## Scope
 
-See the **_Applicability_** section of the GSA IT Security Policy.
+See the [CivicActions Common Control Policy](CivicActions-Common-Control-Policy.md).
+
 
 ## Policy overlay
 
-For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/18F/compliance-docs/blob/master/TTS-Common-Control-Policy.md).
+For information on roles and responsibilities, management commitment, coordination among
+organizational entities, compliance, reviews, and updates please see the
+[CivicActions Common Control Policy](CivicActions-Common-Control-Policy.md).
 
 ## Procedures
 

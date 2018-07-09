@@ -4,7 +4,7 @@ CivicActions has implemented and documented a set of common control policies. Al
 
 CivicActions Security Operations works to ensure policies stay current given any updates to law, regulation, or operational procedures.
 
-These policies are managed as part of the general information security policy for all of CivicActions and its client services.
+These policies are managed as part of the general information security policy for all of CivicActions and its client services, particularly when indicated by contract, regulation or law.
 
 ## Purpose
 
@@ -12,9 +12,12 @@ To ensure the consistency of all information security policies.
 
 ## Scope
 
-All CivicActions employees and contractors are subject to these policies.
+All CivicActions employees and contractors are subject to these policies as required by
+contract, regulation or law.
 
-This IT Security Policy applies to all CivicActions employees and contractors or vendors who manage, maintain, operate, or protect CivicActions' systems, services and data.
+When applicable, this IT Security Policy applies to all CivicActions employees and
+contractors or vendors who manage, maintain, operate, or protect CivicActions' systems,
+services and data.
 
 ## Roles and responsibilities
 

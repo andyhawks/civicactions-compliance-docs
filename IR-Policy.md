@@ -34,8 +34,8 @@ The CivicActions team onboarding checklist (https://github.com/18F/cg-product/bl
 
 This training is a meeting reviewing and explaining the CivicActions IR Guide (https://docs.CivicActions/ops/security-ir/) and discussing questions and examples. The team takes notes on the training, stored in a Google Doc in the CivicActions team Google Drive folder. The team records attendance in that document.
 
-If the CivicActions system changes in a radical way, the Program Manager adapts the incident response training to meet the needs of the new system. The Program Manager then requires Cloud Operations team members to take the training again.
-The Program Manager requires all Cloud Operations team members to take the incident response training at least once a year.
+If the CivicActions system changes in a radical way, the Program Manager adapts the incident response training to meet the needs of the new system. The Program Manager then requires CivicActions Operations team members to take the training again.
+The Program Manager requires all CivicActions Operations team members to take the incident response training at least once a year.
 
 See IR-2.
 
