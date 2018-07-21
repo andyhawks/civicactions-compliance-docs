@@ -1,7 +1,7 @@
 # Media Protection Policy
 
 Where possible, media protection is managed by virtual services employed by CivicActions
-to host client products and services. Relevent controls may include one or more of:
+to host client products and services. Relevant controls may include one or more of:
 
 * Awareness and Training (AT)
 * Configuration Management (CM)

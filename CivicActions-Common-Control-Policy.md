@@ -2,7 +2,7 @@
 
 CivicActions has implemented and documented a set of common control policies. All policies are disseminated to employees and contractors via the [CivicActions Handbook](https://civicactions-handbook.readthedocs.io/en/latest/README/) and through required re-occuring internal trainings.
 
-CivicActions Security Operations works to ensure policies stay current given any updates to law, regulation, or operational procedures.
+CivicActions Information Security works to ensure policies stay current given any updates to law, regulation, or operational procedures.
 
 These policies are managed as part of the general information security policy for all of CivicActions and its client services, particularly when indicated by contract, regulation or law.
 
@@ -15,7 +15,7 @@ To ensure the consistency of all information security policies.
 All CivicActions employees and contractors are subject to these policies as required by
 contract, regulation or law.
 
-When applicable, this IT Security Policy applies to all CivicActions employees and
+When applicable, this Security Policy applies to all CivicActions employees and
 contractors or vendors who manage, maintain, operate, or protect CivicActions' systems,
 services and data.
 
@@ -29,12 +29,12 @@ The CivicActions Chief Information Security Officer is ultimately responsible fo
 
 ## Coordination 
 
-CivicActions Information Security works in close coordination and collaboration with CivicActions Technology (IT), and is home to multiple infrastructure and security experts. Implementations, and recommendations for policy additions and improvements, are constantly coordinated between the two teams. 
+CivicActions Information Security works in close coordination and collaboration with CivicActions Information Technology, Development and Operations (collectively called "Operations" in these policies), and is home to multiple infrastructure and security experts. Implementations and recommendations for policy additions and improvements are constantly coordinated between the teams.
 
 ## Compliance
 
-The CivicActions Director of Technology is ultimately responsible for ensuring that the procedures of all CivicActions systems adhere to these policies. The CivicActions Director of Technology accepts the risk of operating all Low and Moderate impact systems as the Authorizing Official, and reviews for compliance before granting an authority to operate (ATO).	
+The CivicActions Director of Technology is ultimately responsible for ensuring that the procedures of all CivicActions systems adhere to these policies. The CivicActions Director of Technology accepts the risk of operating all Low and Moderate impact systems and reviews for compliance before granting an authority to operate (ATO).	
 
 ## Reviews
 
-CivicActions Information Security and Technology reviews all policies and procedures when new ATOs are required, or once every 3 years, whichever comes first. The teams also review modifications to policies and procedures when modifications become necessary due to changes in law, regulation, or operations.
+The CivicActions Information Security and Operations teams review all policies and procedures when new ATOs are required, or once every 3 years, whichever comes first. The teams also review modifications to policies and procedures when modifications become necessary due to changes in law, regulation, or operations.

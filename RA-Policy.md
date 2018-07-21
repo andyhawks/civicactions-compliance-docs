@@ -1,8 +1,7 @@
 # Risk assessment policy
 
-When contract, regulations or law require, CivicActions will perform risk assessments on
-supplied products and services. These assessments may cover one or more controls within
-these families:
+CivicActions performs risk assessments on supplied products and services. These
+assessments may cover one or more controls within these families:
 
 * Certification, Accreditation, and Security Assessments (CA)
 * Planning (PL)

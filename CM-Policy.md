@@ -42,6 +42,6 @@ or rolled back should unauthorized or failing changes be applied.
 
 See CM-2.
 
-CivicActions Technology Operations works with relevant stakeholders, decision-makers, and CivicActions Information Security to determine any necessary changes, and their impacts, to the configuration of the system. All changes to the configuration of the system are tracked in GitHub. Only the System Owner and CivicActions Technology Operations are allowed to make configuration changes, and all changes are made to reasonably ensure the configurations require the least amount of functionality necessary.
+CivicActions Operations works with relevant stakeholders, decision-makers, and CivicActions Information Security to determine any necessary changes, and their impacts, to the configuration of the system. All changes to the configuration of the system are tracked in GitHub. Only the System Owner and CivicActions Operations are allowed to make configuration changes, and all changes are made to reasonably ensure the configurations require the least amount of functionality necessary.
 
 See CM-3, CM-4, CM-5, CM-7, CM-8.

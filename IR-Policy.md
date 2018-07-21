@@ -28,7 +28,7 @@ organizational entities, compliance, reviews, and updates please see the
 
 ## Procedures
 
-The CivicActions Security Office organizes incident response training sessions, offered to the whole CivicActions team at least annually, and requires that all CivicActions Operations team members take the training. The training may be led by a Project Manager or a Security or Technology Operations team member.
+The CivicActions Security Office organizes incident response training sessions, offered to the whole CivicActions team at least annually, and requires that all CivicActions Operations team members take the training. The training may be led by a Project Manager or a Security or Operations team member.
 
 The CivicActions team onboarding checklist (https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md) requires that all team members take incident response training within 60 days of joining the team.
 
@@ -45,13 +45,13 @@ CivicActions has an Incident Response Plan (https://civicactions-handbook.readth
 
 See IR-4, IR-5, IR-6.
 
-The Technology Operations team implements automated processes such as ClamAV and AIDE to detect anomalies. When these processes detect an anomaly, they escalate an alert to Security Operations team members, often automatically via Slack and/or OpsGenie.
+The Operations team implements automated processes such as ClamAV and AIDE to detect anomalies. When these processes detect an anomaly, they escalate an alert to Security Operations team members, often automatically via Slack and/or OpsGenie.
 
-CivicActions' systems automatically store logs so that Technology Operations can access relevant information when investigating a potential incident.
+CivicActions' systems automatically store logs so that Operations can access relevant information when investigating a potential incident.
 
 See IR-4 (1), IR-6 (1).
 
-As described in the CivicActions security incident response guide and contingency plan, technology Operations will notify customers about incidents and potential incidents.
+As described in the CivicActions security incident response guide and contingency plan, Operations will notify customers about incidents and potential incidents.
 
 See IR-7.
 
