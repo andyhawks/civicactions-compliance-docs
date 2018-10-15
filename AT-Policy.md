@@ -31,6 +31,13 @@ client services as needed.
 
 ## Procedures
 
+All CivicActions employees undergo a
+[Security Awareness training](https://civicactions-handbook.readthedocs.io/en/latest/01-welcome-to-civicactions/training/security-training/)
+that includes the
+[Acceptable Use Policy](https://civicactions-handbook.readthedocs.io/en/latest/03-policies/security/#acceptable-use-policy)
+and the required use of a password manager and two factor authentication for access to
+restricted resources.
+
 If CivicActions staff fail to comply with CivicActions security awareness and training
 requirements, their access to CivicActions information systems may be terminated.
 
