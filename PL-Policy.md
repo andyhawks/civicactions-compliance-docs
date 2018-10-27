@@ -45,10 +45,18 @@ control assessments, and thereafter whenever a significant change occurs.
 
 See PL-2
 
-All CivicActions staff members have read and understand [CivicActions Security
-Awareness](https://civicactions-handbook.readthedocs.io/en/latest/09-security/awareness/)
-documentation including a section on [Phishing and Social
-Engineering](https://civicactions-handbook.readthedocs.io/en/latest/09-security/awareness/#phishing-and-social-engineering)
-before obtaining access to information and the information systems.
+All CivicActions employees are required to read and sign the
+[CivicActions Security Policy](https://civicactions-handbook.readthedocs.io/en/latest/03-policies/security/)
+which includes an
+[Acceptable Use Policy](https://civicactions-handbook.readthedocs.io/en/latest/03-policies/security/#acceptable-use-policy) (AKA "Rules of Behavior")
+prior to being authorized access to CivicActions operated systems.
+This is part of the
+[Security Training](https://civicactions-handbook.readthedocs.io/en/latest/01-welcome-to-civicactions/training/security-training/)
+onboarding process that covers
+[Security Awareness](https://civicactions-handbook.readthedocs.io/en/latest/09-security/awareness/)
+and an understanding of
+[Phishing and Social Engineering](https://civicactions-handbook.readthedocs.io/en/latest/09-security/awareness/#phishing-and-social-engineering).
 
-See PL-4
+If CivicActions staff fail to comply with CivicActions security awareness and training requirements, their access to CivicActions information systems may be terminated.
+
+See AT-2, PL-4
