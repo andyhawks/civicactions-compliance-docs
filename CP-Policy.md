@@ -1,6 +1,6 @@
 # Contingency planning
 
-See the [CivicActions Security Training](https://civicactions-handbook.readthedocs.io/en/latest/01-welcome-to-civicactions/training/security-training/) which covers:
+See the [CivicActions Security Training](https://handbook.civicactions.com/en/latest/010-welcome-to-civicactions/training/security-training/) which covers:
 
 * Awareness and Training (AT)
 * Configuration Management (CM)
