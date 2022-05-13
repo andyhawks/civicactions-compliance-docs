@@ -28,4 +28,4 @@ organizational entities, compliance, reviews, and updates please see the
 
 ## Procedures
 
-See the [CivicActions Contingency Plan](https://civicactions-handbook.readthedocs.io/en/latest/09-security/contingency-plan/)
+See the [CivicActions Contingency Plan](https://handbook.civicactions.com/en/latest/100-security/contingency-plan/)
