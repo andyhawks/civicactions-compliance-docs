@@ -1,7 +1,7 @@
 # Personnel Security Policy
 
 CivicActions
-[employment](https://civicactions-handbook.readthedocs.io/en/latest/03-policies/employment/)
+[employment](https://handbook.civicactions.com/en/latest/040-employee-handbook-us/employment/)
 includes background checks, agreement to a [Conflict of Interest
 Plan](https://docs.google.com/document/d/1JSvThcqIM8BSmIoAjUrNZPdx0wemMCiyrBRyChORfv0/edit?usp=sharing), and may cover one or more controls listed in these families:
 
