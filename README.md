@@ -2,7 +2,7 @@
 
 This repository documents CivicActions common security policies and procedures, which are used by the CivicActions team.
 
-This is a public repository following [CivicActions' Open Source Policy](https://civicactions-handbook.readthedocs.io/en/latest/01-welcome-to-civicactions/training/intro-open-source/). See our [LICENSE.md](LICENSE.md) and [CONTRIBUTING.md](CONTRIBUTING.md) files for additional information.
+This is a public repository following [CivicActions' Open Source Policy](https://handbook.civicactions.com/en/latest/010-welcome-to-civicactions/training/intro-open-source/). See our [LICENSE.md](LICENSE.md) and [CONTRIBUTING.md](CONTRIBUTING.md) files for additional information.
 
 ## Creative Commons
 
