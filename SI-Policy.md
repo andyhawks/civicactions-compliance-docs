@@ -46,13 +46,14 @@ configuration management process.
 See SI-2.
 
 CivicActions employs tools at information system entry and exit points to detect and
-eradicate malicious code with real-time scans. The CivicActions Operations team follows
-the [Security Incident Response
-Guide](https://github.com/NuCivic/healthdata/wiki/incident-response-plan) upon detection
-of any potential security incident.
+quarantine malicious code with real-time scans. Each client team has a system-specific
+Incident Response Plan and there is a default
+[CivicActions Security Incident Response Plan](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/incident-response-plan/)
+that is followed upon detection of any potential security incident.
 
 CivicActions-developed open source code that is used in the CivicActions products and
-services is scanned using static analysis tools. When anyone proposes a change to the code
-(a pull request), the static analysis tool automatically runs and displays results.
+services is scanned using static analysis tools. When a developer proposes a change to
+code (a pull request), the static analysis tool automatically runs and displays results
+and peer reviews are performed.
 
 See SI-3.

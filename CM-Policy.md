@@ -39,11 +39,11 @@ See CM-2.
 CivicActions Operations works with relevant stakeholders, decision-makers, and
 CivicActions Information Security to determine any necessary changes, and their impacts,
 to the configuration of the system. All changes to the configuration of the system are
-tracked in Git. The process is overseen by the Change Control Board (CCB) consisting of
-the System Owner, Project Manager and CivicActions Development during sprint planning
-meetings. All changes undergo peer review, behavioral and security testing, and are made
-to reasonably ensure the configurations require the least amount of functionality
-necessary.
+tracked with a version control management system such as Github. The process is overseen
+by the Change Control Board (CCB) consisting of the System Owner, Project Manager and
+CivicActions Development during sprint planning meetings. All changes undergo peer review,
+behavioral and security testing, and are made to reasonably ensure the configurations
+require the least amount of functionality necessary.
 
 See CM-3, CM-4, CM-5, CM-7, CM-8.
 

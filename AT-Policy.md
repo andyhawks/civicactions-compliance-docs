@@ -1,6 +1,6 @@
 # Security Awareness and Training Policy
 
-See the [CivicActions Security Training](https://civicactions-handbook.readthedocs.io/en/latest/01-welcome-to-civicactions/training/security-training/) which covers:
+See the [CivicActions Security Training](https://guidebook.civicactions.com/en/latest/company-policies/new-hire-orientation/security-training/) which covers:
 
 * Awareness and Training (AT)
 * Configuration Management (CM)

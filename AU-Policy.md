@@ -50,33 +50,50 @@ threat environment occur or are identified by risk assessment.
 
 See AU-2(3).
 
-The events monitored generally include but are not limited to successful and unsuccessful account logon events, account management events, policy change, privileged functions, and system events. These events are tracked for all administrator activity, authentication checks, authorization checks, and permission changes.
+The events monitored generally include but are not limited to successful and unsuccessful
+account logon events, account management events, policy change, privileged functions, and
+system events. These events are tracked for all administrator activity, authentication
+checks, authorization checks, and permission changes.
 
 See AU-3.
 
-The log management framework provides the capability to retain logs for 180 days online, with sufficient capacity as to mitigate the risk of exceeding storage space. In the event the threshold is exceeded, administrators can add additional storage capacity without impacting the system.
+The log management framework  provides the capability to retain logs  for 180 days online,
+with sufficient capacity as to mitigate the  risk of exceeding storage space. In the event
+the  threshold is  exceeded, administrators  can add  additional storage  capacity without
+impacting the system.
 
 See AU-4.
 
-CivicActions has the ability to implement alerting to notify of insufficient audit storage capacity or if no new logs have been written a logging facility within a defined time frame.
+CivicActions has the ability to implement alerting to notify of insufficient audit storage
+capacity or if no new logs have been written a logging facility within a defined time
+frame.
 
 See AU-5.
 
 Security vulnerabilities and system inconsistencies are reviewed by the CivicActions Operations team (notified by email, text message and voice phone call). Security vulnerabilities which are not classified as high are reviewed weekly and resolved by CivicActions Operations.
 
-The CivicActions Operations team acts on findings that result from its regular audit process according to its [incident response guidelines](https://github.com/CivicActions/devops/blob/master/docs/incident-response-plan.md) including notifying CivicActions Information Security, the System Owner, and the ISSO.
+The CivicActions Operations team acts on findings that result from its regular audit
+process according to its [incident response guidelines](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/incident-response-plan/)
+including notifying CivicActions Information Security, the System Owner, and the ISSO.
 
 See AU-6.
 
-CivicActions pulls from multiple NTP sources including http://tf.nist.gov/tf-cgi/servers.cgi to generate timestamps for audit records. These timestamps can be mapped to Coordinated Universal Time (UTC) or Greenwich Mean Time (GMT).
+CivicActions servers synchronize their clocks using multiple NTP sources including
+http://tf.nist.gov/tf-cgi/servers.cgi to generate timestamps for audit records. These
+timestamps can be mapped to Coordinated Universal Time (UTC) or Greenwich Mean Time (GMT).
 
 See AU-8.
 
-To maintain the integrity of log data, CivicActions manages access around the generation and storage of audit log files. The ability to view or modify log data is restricted to CivicActions Operations authorized users.
+To maintain the integrity of log data, CivicActions manages access around the generation
+and storage of audit log files. The ability to view log data or modify logging parameters
+is restricted to CivicActions Operations authorized users.
 
 See AU-9.
 
-Audit logs are retained to provide support for after-the-fact investigations of security incidents and to meet regulatory and organizational information retention requirements. Our logging systems referenced above retain logs for 180 days online, and for an additional year in an offline system.
+Audit logs are retained to provide support for after-the-fact investigations of security
+incidents and to meet regulatory and organizational information retention
+requirements. Our logging systems referenced above retain logs for at least 180 days
+online, and for an additional year in an offline system.
 
 See AU-11.
 

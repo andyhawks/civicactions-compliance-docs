@@ -46,16 +46,16 @@ control assessments, and thereafter whenever a significant change occurs.
 See PL-2
 
 All CivicActions employees are required to read and sign the
-[CivicActions Security Policy](https://civicactions-handbook.readthedocs.io/en/latest/03-policies/security/)
+[CivicActions Security Policy](https://guidebook.civicactions.com/en/latest/company-policies/security/)
 which includes an
-[Acceptable Use Policy](https://civicactions-handbook.readthedocs.io/en/latest/03-policies/security/#acceptable-use-policy) (AKA "Rules of Behavior")
-prior to being authorized access to CivicActions operated systems.
+[Acceptable Use Policy](https://guidebook.civicactions.com/en/latest/company-policies/security/#acceptable-use-policy) (AKA "Rules of Behavior")
+prior to being authorized to access CivicActions systems.
 This is part of the
-[Security Training](https://civicactions-handbook.readthedocs.io/en/latest/01-welcome-to-civicactions/training/security-training/)
+[Security Training](https://guidebook.civicactions.com/en/latest/company-policies/new-hire-orientation/security-training/)
 onboarding process that covers
-[Security Awareness](https://civicactions-handbook.readthedocs.io/en/latest/09-security/awareness/)
-and an understanding of
-[Phishing and Social Engineering](https://civicactions-handbook.readthedocs.io/en/latest/09-security/awareness/#phishing-and-social-engineering).
+[Security Awareness](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/awareness/)
+and an understanding of security incidents including how to
+[Handle phishing emails](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/incidents/).
 
 If CivicActions staff fail to comply with CivicActions security awareness and training requirements, their access to CivicActions information systems may be terminated.
 

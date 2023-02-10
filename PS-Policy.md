@@ -1,10 +1,9 @@
 # Personnel Security Policy
 
 CivicActions
-[employment](https://handbook.civicactions.com/en/latest/040-employee-handbook-us/employment/)
-includes background checks, agreement to a [Conflict of Interest
-Plan](https://docs.google.com/document/d/1JSvThcqIM8BSmIoAjUrNZPdx0wemMCiyrBRyChORfv0/edit?usp=sharing), and may cover one or more controls listed in these families:
-
+[employment](https://guidebook.civicactions.com/en/latest/company-policies/employment/us/employment/)
+includes background checks, agreement to a
+[Conflict of Interest Plan](https://docs.google.com/document/d/1JSvThcqIM8BSmIoAjUrNZPdx0wemMCiyrBRyChORfv0/edit?usp=sharing), and may cover one or more controls listed in these families:
 
 * Awareness and Training (AT)
 * Configuration Management (CM)
@@ -47,7 +46,7 @@ CivicActions enforces the same requirements on contractors that it does on staff
 
 See PS-7.
 
-The Director of Human Resources is responsible for determining and enforcing sanctions for
+The Management Ops Team is responsible for determining and enforcing sanctions for
 failing to comply with established information security policies and procedures. Coaching
 may be considered prior to sanctions. Sanctions may include but are not limited to written
 warnings, reduction in system access, demotion, or termination.

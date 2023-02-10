@@ -1,6 +1,6 @@
 # CivicActions Common Control Policy
 
-CivicActions has implemented and documented a set of common control policies. All policies are disseminated to employees and contractors via the [CivicActions Handbook](https://handbook.civicactions.com/en/latest/) and through required re-occuring internal trainings.
+CivicActions has implemented and documented a set of common control policies. All policies are disseminated to employees and contractors via the [CivicActions Guidebook](https://guidebook.civicactions.com/) and through required re-occuring internal trainings.
 
 CivicActions Information Security works to ensure policies stay current given any updates to law, regulation, or operational procedures.
 
