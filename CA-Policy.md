@@ -39,8 +39,8 @@ resolved, compensated for, or accepted as an operational requirement.
 
 See CA-2, CA-5, CA-7, CA-8.
 
-The CivicActions Director of Technolog serves as the Authorizing Official for all
-CivicActions services.
+The CivicActions Chief Information Security Officer (CISO) or Delegated Representative
+serves as the Authorizing Official for all CivicActions services.
 
 See CA-6.
 

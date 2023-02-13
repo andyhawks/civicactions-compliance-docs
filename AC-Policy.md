@@ -38,19 +38,19 @@ client services as needed.
 ## Procedures
 
 CivicActions gives administrative user roles to employees only after review by
-CivicActions Information Security. Reviews of user access rights are performed on a
-regular basis (at least twice annually). Employee access privileges are removed upon
-termination of their relationship to the company.
+CivicActions Information Security. Reviews of privileged user access rights are performed
+on a regular basis (generally quarterly). Employee access privileges are removed when no
+longer required and upon termination of their relationship to the company.
 
-HTTPS and Secure Shell (SSH) are used for remote access, and all remote access is documented,
-monitored and controlled.
+HTTPS and Secure Shell (SSH) are used for remote access, and all remote access is
+documented, monitored and controlled.
 
-Access to client systems and services may be extended to include the provisioning of privileged
-users by the client under the conditions of their Access Control Policy.
+Access to client systems and services may be extended to include the provisioning of
+privileged users by the client under the conditions of their Access Control Policy.
 
 See AC-2, AC-3, AC-7, AC-8, AC-14, AC-17
 
-CivicActions systems always adhere to the principle of role segmentation and least privilege
-wherever possible.
+CivicActions access control decisions adhere to the the need to know principle, role
+segmentation and least privilege.
 
 See AC-5, AC-6

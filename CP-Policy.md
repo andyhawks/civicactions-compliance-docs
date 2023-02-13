@@ -1,6 +1,6 @@
 # Contingency planning
 
-See the [CivicActions Security Training](https://handbook.civicactions.com/en/latest/010-welcome-to-civicactions/training/security-training/) which covers:
+See the [CivicActions Security Training](https://guidebook.civicactions.com/en/latest/company-policies/new-hire-orientation/security-training/) which covers:
 
 * Awareness and Training (AT)
 * Configuration Management (CM)
@@ -28,4 +28,4 @@ organizational entities, compliance, reviews, and updates please see the
 
 ## Procedures
 
-See the [CivicActions Contingency Plan](https://handbook.civicactions.com/en/latest/100-security/contingency-plan/)
+See the [CivicActions Contingency Plan](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/contingency-plan/)

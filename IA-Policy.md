@@ -33,11 +33,11 @@ client services as needed.
 ## Procedures
 
 In accordance with the [CivicActions Security and Compliance policy for
-Developers](https://civicactions-handbook.readthedocs.io/en/latest/05-engineering/security-compliance/),
+Developers](https://guidebook.civicactions.com/en/latest/practice-areas/engineering/security-compliance/),
 CivicActions internal users are uniquely identified by creation of an organizational
 account with a username based on each user's first and last name and an email based on
 their civicactions.com email address.
 
-Privileged user accounts are audited and privileges removed when no longer applicable.
+Privileged user accounts employ Multi-Factor Authentication (MFA).
 
 See IA-2, IA-4, IA-5

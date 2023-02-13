@@ -1,6 +1,6 @@
 # Incident response
 
-See the [CivicActions Security Training](https://civicactions-handbook.readthedocs.io/en/latest/01-welcome-to-civicactions/training/security-training/) which covers:
+See the [CivicActions Security Training](https://guidebook.civicactions.com/en/latest/company-policies/new-hire-orientation/security-training/) which covers:
 
 * Awareness and Training (AT)
 * Configuration Management (CM)
@@ -28,19 +28,13 @@ organizational entities, compliance, reviews, and updates please see the
 
 ## Procedures
 
-The CivicActions Security Office organizes incident response training sessions, offered to the whole CivicActions team at least annually, and requires that all CivicActions Operations team members take the training. The training may be led by a Project Manager or a Security or Operations team member.
-
-The CivicActions team [Onboarding Process](https://civicactions-handbook.readthedocs.io/en/latest/08-hr-admin/onboarding-process/onboarding-process/) New Hire Checklist requires that all team members take incident response training within 30 days of joining the team. The training includes a quiz that requires an understanding of the procedures.
-
-If the CivicActions systems or processes change in a radical way, CivicActions Security adapts the incident response training to meet the needs of the new system. CivicActions Security then requires all CivicActions team members to take the training again.
-
-CivicActions Security requires all CivicActions team members to take the incident response training at least once a year.
+The CivicActions Security Office organizes incident response training sessions, offered to the whole CivicActions team at least annually, led by a Project Manager or a Security or Operations team member. Some clients have their own Incident Response plans. CivicActions Operations team members take at least one incident response training yearly.
 
 See IR-2.
 
 CivicActions implements processes to detect and analyze malicious activity within the system platforms. If these processes detect malicious activity, they report the activity to the Operations team.
 
-CivicActions has an [Incident Response Plan](https://civicactions-handbook.readthedocs.io/en/latest/09-security/incident-response-plan/) that documents the procedures that staff should take in the case of an incident.
+CivicActions has a default [Incident Response Plan](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/incident-response-plan/) that documents the procedures that staff should take in the case of an incident.
 
 See IR-4, IR-5, IR-6.
 
@@ -54,16 +48,23 @@ As described in the CivicActions security incident response guide and contingenc
 
 See IR-7.
 
-CivicActions Security has developed an [Incident Response Plan](https://civicactions-handbook.readthedocs.io/en/latest/09-security/incident-response-plan/) to implement incident response capabilities.
-
-The Incident Response Plan is continually reviewed and updated by the CivicActions team. In addition, the CivicActions team updates the IR Guide after it tests the guide, which happens at least annually and after any major system/organizational changes.
+The CivicActions [Incident Response Plan](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/incident-response-plan/) provides a baseline of incident response capabilities.
 
 The CivicActions team distributes changes to the Incident Response Guide to the whole CivicActions team.
 
 See IR-8.
 
-CivicActions Incident Response directs CivicActions team members to watch out for and immediately report any potential security incident, which includes reporting suspected information spills (such as sensitive or classified information in the wrong places). In the event of a suspected information spill, CivicActions team members follow the reporting process in the CivicActions Incident Response Plan.
+CivicActions Incident Response directs CivicActions team members to watch out for and
+immediately report any potential
+[security incident](https://guidebook.civicactions.com/en/latest/common-practices-tools/security/incidents/),
 
-The System Owner, Program Manager, and CivicActions Information Security and Technology team members have primary responsibility for implementing the actual response to security incidents, including technical measures.
+which includes reporting phishing attempts and suspected information spills, perhaps the
+inadvertant publishing of a security token to a public repository. In the event of a
+suspected incident, CivicActions team members follow the reporting process in the
+CivicActions Incident Response Plan.
+
+The System Owner, Program Manager, and CivicActions Information Security and Technology
+team members have primary responsibility for implementing the response to security
+incidents, including reporting, escalation and technical measures.
 
 See IR-9.
